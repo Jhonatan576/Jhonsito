@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ted</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+  <link rel="shortcut icon" type="image/x-icon" href="https://u.cubeupload.com/BrunoT/ChatGPTImage7deabrde.png" />
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+  <div class="background-animation"></div>
+  
+  <div class="music-player">
+    <button id="musicToggle">
+      <i data-lucide="music" class="music-icon"></i>
+    </button>
+    <audio id="audioPlayer" src="music/som1.mp3" loop></audio>
+  </div>
+
+  <nav class="navigation">
+    <button class="nav-btn active" data-page="home">
+      <i data-lucide="home"></i>
+      <span>Home</span>
+    </button>
+    <button class="nav-btn" data-page="gallery">
+      <i data-lucide="image"></i>
+      <span>Gallery</span>
+    </button>
+    <button class="nav-btn" data-page="married">
+      <i data-lucide="heart"></i>
+      <span>Married</span>
+    </button>
+    <button class="nav-btn" data-page="youtube">
+      <i data-lucide="youtube"></i>
+      <span>YouTube</span>
+    </button>
+    <button class="nav-btn" data-page="chat" onclick="window.open('https://xat.com/ted', '_blank')">
+  <i data-lucide="message-circle"></i>
+  <span>Chat</span>
+</button>
+
+  </nav>
+
+  <main class="container">
+    <!-- Home Page -->
+    <div class="page active" id="home">
+      <div class="profile-card">
+        <div class="profile-image">
+          <div class="instagram-border">
+            <img src="https://u.cubeupload.com/Tedy/animeboy.png" alt="Profile Photo">
+          </div>
+        </div>
+        <h1>Ted</h1>
+        <p class="subtitle">TED1 (11000)</p>
+        <p class="profile-description">
+          The Number One.   
+        </p>
+      </div>
+    </div>
+
+    <!-- Married Page -->
+    <div class="page" id="married">
+      <div class="married-content">
+        <div class="couple-photos">
+          <div class="couple-photo-container">
+            <img src="https://xatimg.com/image/8XaS9QG2kp4Q.jpg" alt="Couple Photo 1">
+            <div class="heart-corner">❤️</div>
+          </div>
+          <div class="couple-photo-container">
+            <img src="https://xatimg.com/image/PIZ07oPdqOSa.png" alt="Couple Photo 1">
+            <div class="heart-corner">❤️</div>
+          </div>
+          <div class="couple-photo-container">
+            <img src="https://xatimg.com/image/2HpLHDhZP0Hc.jpg" alt="Couple Photo 2">
+            <div class="heart-corner">❤️</div>
+          </div>
+        </div>
+        <div class="married-text">
+          <h2>My first of January</h2>
+          <p>You are the beginning of our endless love story.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- YouTube Page -->
+    <div class="page" id="youtube">
+      <div class="video-container">
+        <iframe 
+          src="https://www.youtube.com/embed/y1VfNn2jKMo" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Gallery Page -->
+    <div class="page" id="gallery">
+  <div class="gallery-grid">
+    <div class="gallery-item" data-img="https://xatimg.com/image/sfBGLt9GIzcz.jpg">
+      <img src="https://xatimg.com/image/sfBGLt9GIzcz.jpg" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/7ogBKKWYaFNZ.jpg">
+      <img src="https://xatimg.com/image/7ogBKKWYaFNZ.jpg" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/uE3r3FyTiDIm.jpg">
+      <img src="https://xatimg.com/image/uE3r3FyTiDIm.jpg" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/DVToIfCqgMCB.jpg">
+      <img src="https://xatimg.com/image/DVToIfCqgMCB.jpg" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/2p8iu40rhW0r.jpg">
+      <img src="https://xatimg.com/image/2p8iu40rhW0r.jpg" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/n3iHPITb03AK.jpg">
+      <img src="https://xatimg.com/image/n3iHPITb03AK.jpg" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/Drz7FAWPgpbn.png">
+      <img src="https://xatimg.com/image/Drz7FAWPgpbn.png" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/7IVkM9PESciI.png">
+      <img src="https://xatimg.com/image/7IVkM9PESciI.png" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/ZNCSAFR7TPwV.png">
+      <img src="https://xatimg.com/image/ZNCSAFR7TPwV.png" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/JqYQkFcBnb9i.jpg">
+      <img src="https://xatimg.com/image/JqYQkFcBnb9i.jpg" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/U4YJaykV6QYr.jpg">
+      <img src="https://xatimg.com/image/U4YJaykV6QYr.jpg" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/oviv1l90XIKV.png">
+      <img src="https://xatimg.com/image/oviv1l90XIKV.png" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/LDUEGHgV17PX.png">
+      <img src="https://xatimg.com/image/LDUEGHgV17PX.png" alt="Gallery Image">
+    </div>
+
+    <div class="gallery-item" data-img="https://xatimg.com/image/UeTfbJvcE8Vu.png">
+      <img src="https://xatimg.com/image/UeTfbJvcE8Vu.png" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/xjuxSYFsKWJS.jpg">
+      <img src="https://xatimg.com/image/xjuxSYFsKWJS.jpg" alt="Gallery Image">
+    </div>
+    <div class="gallery-item" data-img="https://xatimg.com/image/QRp2ywWKBWdW.jpg">
+      <img src="https://xatimg.com/image/QRp2ywWKBWdW.jpg" alt="Gallery Image">
+    </div>
+  </div>
+</div>
+
+
+    <!-- Chat Page -->
+    <div class="page" id="chat">
+      <div class="chat-container">
+        <div class="chat-messages"></div>
+        <div class="chat-input">
+          <input type="text" placeholder="Type your message...">
+          <button><i data-lucide="send"></i></button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="galleryModal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
