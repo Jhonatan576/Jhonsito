@@ -37,7 +37,7 @@ body {
 .navigation {
   position: fixed;
   top: 85%;
-  left: 720px;
+  left: 780px;
   transform: translateY(-50%);
   display: flex;
   flex-direction: row;
