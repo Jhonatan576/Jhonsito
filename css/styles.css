@@ -139,14 +139,14 @@ body {
 }
 
 .profile-card {
-  background: rgba(255, 255, 255, 0.02);
-  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.01); /* más transparente */
+  backdrop-filter: blur(18px); /* más blur para compensar */
   border-radius: 20px;
   padding: 40px;
   text-align: center;
 
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* un poco más fuerte */
+  border: 1px solid rgba(255, 255, 255, 0.12); /* borde visible */
 
   max-width: 400px;
   margin: 0 auto;
