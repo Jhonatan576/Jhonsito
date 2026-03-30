@@ -139,7 +139,6 @@ body {
 }
 
 .profile-card {
-.profile-card {
   background: rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(15px);
   border-radius: 20px;
