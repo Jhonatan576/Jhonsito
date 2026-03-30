@@ -169,7 +169,7 @@ body {
   height: 100%;
   border-radius: 50%;
   padding: 6px;
-  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  background: linear-gradient(45deg, #000000, #7a7a7a, #ffffff);
 }
 
 .jhon-border img {
