@@ -139,8 +139,8 @@ body {
 }
 
 .profile-card {
-  background: rgba(255, 255, 255, 0.01); /* más transparente */
-  backdrop-filter: blur(18px); /* más blur para compensar */
+  background: rgba(255, 255, 255, 0.012); /* más transparente */
+  backdrop-filter: blur(2px); /* más blur para compensar */
   border-radius: 20px;
   padding: 40px;
   text-align: center;
