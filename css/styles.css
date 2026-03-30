@@ -87,7 +87,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #4CAF50;
+  color: #D7DAE3;
   transition: all 0.3s ease;
   box-shadow: 0 0 15px rgba(76, 175, 80, 0.3);
   backdrop-filter: blur(2px);
