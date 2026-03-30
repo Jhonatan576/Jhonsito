@@ -182,7 +182,7 @@ body {
 }
 
 .profile-image:hover .jhon-border img {
-  transform: rotate(360deg);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
 .profile-description {
