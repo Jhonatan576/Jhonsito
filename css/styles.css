@@ -35,7 +35,6 @@ body {
 }
 
 .navigation {
-  background: black; 
   position: fixed;
   top: 85%;
   left: 800px;
