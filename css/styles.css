@@ -114,7 +114,7 @@ body {
   padding: 20px;
   z-index: 1;
   min-height: 100vh;
-  overflow-y: auto;
+  overflow-y: hidden;
   display: flex;
   align-items: center;
 }
