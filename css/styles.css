@@ -72,8 +72,8 @@ body {
 
 .music-player {
   position: fixed;
-  top: 500px;
-  right: 700px;
+  top: 700px;
+  right: 800px;
   z-index: 100;
 }
 
