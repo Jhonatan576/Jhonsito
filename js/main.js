@@ -223,10 +223,13 @@ function initParticles() {
       }
     }
 
-   draw() {
-  ctx.font = `${this.size * 5}px Arial`;
-  ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity})`;
-  ctx.fillText('❄️', this.x, this.y);
+  draw() {
+  ctx.beginPath();
+  ctx.arc(this.x, this.y, this.size * 2, 0, Math.PI * 2);
+  ctx.fillStyle = "#FFFFFF";
+  ctx.shadowColor = "white";
+  ctx.shadowBlur = 8;
+  ctx.fill();
 }
   }
 
