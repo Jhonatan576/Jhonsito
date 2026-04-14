@@ -208,9 +208,9 @@ function initParticles() {
     reset() {
       this.x = Math.random() * canvas.width;
       this.y = Math.random() * canvas.height;
-      this.size = Math.random() * 2 + 1;
+      this.size = Math.random() * 3 + 1;
       this.speedX = (Math.random() - 0.5) * 0.5;
-      this.speedY = (Math.random() - 0.5) * 0.5;
+      this.speedY = Math.random() * 1 + 0.2;
       this.opacity = Math.random() * 0.5;
     }
 
@@ -223,12 +223,11 @@ function initParticles() {
       }
     }
 
-    draw() {
-      ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity})`;
-      ctx.beginPath();
-      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-      ctx.fill();
-    }
+   draw() {
+  ctx.font = `${this.size * 5}px Arial`;
+  ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity})`;
+  ctx.fillText('❄️', this.x, this.y);
+}
   }
 
   function initParticles() {
