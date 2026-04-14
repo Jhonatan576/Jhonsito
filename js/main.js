@@ -225,7 +225,7 @@ function initParticles() {
 
   draw() {
   ctx.beginPath();
-  ctx.arc(this.x, this.y, this.size * 2, 0, Math.PI * 2);
+  ctx.arc(this.x, this.y, this.size * 1, 0, Math.PI * 1);
   ctx.fillStyle = "#FFFFFF";
   ctx.shadowColor = "white";
   ctx.shadowBlur = 8;
