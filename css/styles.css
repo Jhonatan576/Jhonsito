@@ -48,7 +48,7 @@ body {
 .nav-btn {
   background: black; 
   border: none;
-  border-radius: 20px;
+  border-radius: 40px;
   padding: 15px;
   color: white;
   font-weight: bold;
@@ -57,7 +57,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   backdrop-filter: blur(2px);
 }
 
@@ -67,9 +67,9 @@ body {
 
 .nav-btn:hover, .nav-btn.active {
   background: rgba(255, 255, 255, 0.2);
-  transform: translateX(2px);
+  transform: translateX(0px);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-  border-radius: 80; 
+  border-radius: 40; 
 }
 
 .music-player {
