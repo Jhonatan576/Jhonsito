@@ -67,7 +67,7 @@ body {
 
 .nav-btn:hover, .nav-btn.active {
   background: rgba(255, 255, 255, 0.2);
-  transform: translateX(5px);
+  transform: translateX(10px);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
   border-radius: 50; 
 }
